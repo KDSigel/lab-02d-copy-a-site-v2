@@ -1,3 +1,23 @@
 body {
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 1fr;
+}
+.logo-nav-misc {
+    display: grid;
+    grid-template-columns: 200px 1fr 100px;
+}
+.navigation {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    justify-items: start;
+}
+.misc-icons {
+    display: grid;
+    grid-template-columns: 88px 88px 88px;
+    justify-items: center;
 }
