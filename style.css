@@ -17,42 +17,52 @@ main {
 }
 .logo-nav-misc {
     display: grid;
-    grid-template-columns: 275px 1fr 200px;
+    grid-template-columns: 275px 1fr 150px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
 }
 .logo {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .navigation {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 4fr;
     font-family: 'Montserrat', sans-serif;
     justify-content: start;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 25px;
-    color: #323438;
-    font-size: .7rem;
-    text-transform: uppercase;
-
+    margin-left: 60px;
 }
 .nav-words {
     padding-right: 10px;
+    color: #323438;
+    font-size: .7rem;
+    text-transform: uppercase;
+    margin-right: 10px;
 }
 .misc-icons {
     display: grid;
-    grid-template-columns: 88px 88px 88px;
-    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+    color: #323438;
 }
 .location {
   display: flex;
-  grid-template-columns: 1fr 1fr;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.home-icon {
+    font-family: 'Material Icons';
+    color: #71767a;
+}
+.playing-cards-loc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #71767a;
 }
 .refining {
     display: grid;
